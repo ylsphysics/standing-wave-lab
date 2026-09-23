@@ -49,7 +49,7 @@ jobs:
         working-directory: site-source
 
       - name: Build static site
-        run: pnpm build
+        run: pnpm build:pages
         working-directory: site-source
         env:
           GITHUB_PAGES: 'true'
